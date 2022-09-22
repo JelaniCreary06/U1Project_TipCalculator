@@ -22,7 +22,7 @@ public class TipCalculator {
         System.out.print("The total amount of people to split between: ");
         people = input.nextInt();
 
-        //Lines 25 - 29 calculate the appropriate values, and reasign them to defined variables.
+        //Lines 25 - 29 calculate the appropriate values, and reassign them to defined variables.
         totalTip = bill * tip;
         totalBill = bill + totalTip;
         tipPerPerson = totalTip / people;
